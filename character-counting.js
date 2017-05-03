@@ -13,8 +13,8 @@
 
 // var noSpaces = word.split(" ").join("");
 
-var word = process.argv[2];
-// var word = "Lighthouse Labs";
+// var word = process.argv[2];
+var word = "Lighthouse Labs";
 
 wordNoSpace = word.replace(/\s/g,'');
 var countLetters={}
